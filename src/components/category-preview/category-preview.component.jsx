@@ -6,6 +6,8 @@ import {
   Preview,
 } from "./category-preview.styles.jsx";
 
+import Spinner from "../spinner/spinner.component.jsx";
+
 const CategoryPreview = ({ title, products }) => {
   return (
     <CategoryPreviewContainer>
