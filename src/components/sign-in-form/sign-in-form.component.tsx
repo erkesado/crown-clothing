@@ -1,9 +1,9 @@
-import { useState } from "react";
+ import { useState, FormEvent, ChangeEvent } from "react";
 import { useDispatch } from "react-redux";
 import FormInput from "../form-input/form-input.component";
 import Button, { BUTTON_TYPE_CLASSES } from "../button/button.component";
 
-import { SigninButtonsContainer } from "./sign-in-form.styles.jsx";
+import { SigninButtonsContainer } from "./sign-in-form.styles";
 
 import { googleSignInStart, emailSignInStart } from "../../store/user/user.action"
 
@@ -21,19 +21,14 @@ const SignInForm = () => {
     setFormFields(defaultFormFields);
   };
 
-  const handleEmailPasswordSignIn = (event) => {
+  const handleEmailPasswordSignIn = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
     try {
       dispatch(emailSignInStart(email, password));
       resetFormFields();
     } catch (error) {
-      if (error.code === "auth/invalid-login-credentials") {
-        console.log(error);
-        alert("Email or Password is incorrect!");
-      } else {
-        console.log(error);
-      }
+      console.log('user sign in failed' , error);
     }
   };
 
@@ -41,7 +36,7 @@ const SignInForm = () => {
     dispatch(googleSignInStart())
   };
 
-  const handleChange = (event) => {
+  const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
     const { name, value } = event.target;
     setFormFields({ ...formFields, [name]: value });
   };
