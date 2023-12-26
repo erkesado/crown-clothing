@@ -12,7 +12,7 @@
     "@types/react": "^18.2.45",
     "@types/react-dom": "^18.2.17",
     "@types/redux-logger": "^3.0.12",
-    "@types/styled-components": "^5.1.34",
+    "@types/styled-components": "^5.1.24",
     "babel-plugin-macros": "^3.1.0",
     "firebase": "^10.4.0",
     "react": "^18.2.0",
@@ -27,7 +27,7 @@
     "redux-thunk": "^2.4.2",
     "reselect": "^4.1.8",
     "sass": "^1.67.0",
-    "styled-components": "^6.1.0",
+    "styled-components": "^5.3.3",
     "typed-redux-saga": "^1.5.0",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4",
@@ -67,5 +67,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "redux-saga-test-plan": "^4.0.6"
   }
 }
