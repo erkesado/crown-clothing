@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.js": "/static/js/main.58e2596e.js",
-    "static/js/760.3025d99c.chunk.js": "/static/js/760.3025d99c.chunk.js",
-    "static/js/940.48eb7167.chunk.js": "/static/js/940.48eb7167.chunk.js",
-    "static/js/133.f43523cf.chunk.js": "/static/js/133.f43523cf.chunk.js",
-    "static/js/842.16e9f2d6.chunk.js": "/static/js/842.16e9f2d6.chunk.js",
-    "static/js/775.170f11b3.chunk.js": "/static/js/775.170f11b3.chunk.js",
-    "static/js/787.8f9a57d4.chunk.js": "/static/js/787.8f9a57d4.chunk.js",
-    "service-worker.js": "/service-worker.js",
-    "static/media/shopping-bag.svg": "/static/media/shopping-bag.a688874f6f1507316bdfa420328a4a53.svg",
-    "static/media/crown.svg": "/static/media/crown.3a4e2b15908e7a4c25343677d232b7e6.svg",
-    "index.html": "/index.html",
-    "main.58e2596e.js.map": "/static/js/main.58e2596e.js.map",
-    "760.3025d99c.chunk.js.map": "/static/js/760.3025d99c.chunk.js.map",
-    "940.48eb7167.chunk.js.map": "/static/js/940.48eb7167.chunk.js.map",
-    "133.f43523cf.chunk.js.map": "/static/js/133.f43523cf.chunk.js.map",
-    "842.16e9f2d6.chunk.js.map": "/static/js/842.16e9f2d6.chunk.js.map",
-    "775.170f11b3.chunk.js.map": "/static/js/775.170f11b3.chunk.js.map",
-    "787.8f9a57d4.chunk.js.map": "/static/js/787.8f9a57d4.chunk.js.map"
+    "main.js": "/ztm-complete-react_crown-clothing/static/js/main.263239c5.js",
+    "static/js/760.3025d99c.chunk.js": "/ztm-complete-react_crown-clothing/static/js/760.3025d99c.chunk.js",
+    "static/js/940.48eb7167.chunk.js": "/ztm-complete-react_crown-clothing/static/js/940.48eb7167.chunk.js",
+    "static/js/133.f43523cf.chunk.js": "/ztm-complete-react_crown-clothing/static/js/133.f43523cf.chunk.js",
+    "static/js/842.16e9f2d6.chunk.js": "/ztm-complete-react_crown-clothing/static/js/842.16e9f2d6.chunk.js",
+    "static/js/775.170f11b3.chunk.js": "/ztm-complete-react_crown-clothing/static/js/775.170f11b3.chunk.js",
+    "static/js/787.8f9a57d4.chunk.js": "/ztm-complete-react_crown-clothing/static/js/787.8f9a57d4.chunk.js",
+    "service-worker.js": "/ztm-complete-react_crown-clothing/service-worker.js",
+    "static/media/shopping-bag.svg": "/ztm-complete-react_crown-clothing/static/media/shopping-bag.a688874f6f1507316bdfa420328a4a53.svg",
+    "static/media/crown.svg": "/ztm-complete-react_crown-clothing/static/media/crown.3a4e2b15908e7a4c25343677d232b7e6.svg",
+    "index.html": "/ztm-complete-react_crown-clothing/index.html",
+    "main.263239c5.js.map": "/ztm-complete-react_crown-clothing/static/js/main.263239c5.js.map",
+    "760.3025d99c.chunk.js.map": "/ztm-complete-react_crown-clothing/static/js/760.3025d99c.chunk.js.map",
+    "940.48eb7167.chunk.js.map": "/ztm-complete-react_crown-clothing/static/js/940.48eb7167.chunk.js.map",
+    "133.f43523cf.chunk.js.map": "/ztm-complete-react_crown-clothing/static/js/133.f43523cf.chunk.js.map",
+    "842.16e9f2d6.chunk.js.map": "/ztm-complete-react_crown-clothing/static/js/842.16e9f2d6.chunk.js.map",
+    "775.170f11b3.chunk.js.map": "/ztm-complete-react_crown-clothing/static/js/775.170f11b3.chunk.js.map",
+    "787.8f9a57d4.chunk.js.map": "/ztm-complete-react_crown-clothing/static/js/787.8f9a57d4.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.58e2596e.js"
+    "static/js/main.263239c5.js"
   ]
 }
