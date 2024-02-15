@@ -2,6 +2,7 @@
   "name": "crown-clothing",
   "version": "0.1.0",
   "private": true,
+  "home": "https://github.com/erkesado/ztm-complete-react_crown-clothing/",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "7.21.0-placeholder-for-preset-env.2",
     "@testing-library/jest-dom": "^5.17.0",
@@ -46,6 +47,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -69,6 +72,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "redux-saga-test-plan": "^4.0.6"
   }
 }
